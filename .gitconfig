@@ -1,0 +1,15 @@
+[user]
+	email = aronrodrigues@gmail.com
+	name = Aron Rodrigues
+[color]
+	ui = auto
+[core]
+	pager = less -FMRiX
+[push]
+	default = simple
+[alias]
+	dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%cr%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
+	homeprofile = config user.email \"aronrodrigues@gmail.com\"
+	lga = log --graph --oneline --all --decorate
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+
